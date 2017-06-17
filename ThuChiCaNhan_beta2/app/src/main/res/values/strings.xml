@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ThuChiCaNhan_beta2</string>
+    <string name="thuchicanhan">Thu Chi Cá Nhân</string>
+    <string name="title_activity_khoan_chi">Khoản Chi</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_khoan_thu">Khoản Thu</string>
+</resources>

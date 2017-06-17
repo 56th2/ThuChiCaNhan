@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.thuchicanhan_beta2.MainActivity">
+
+    <LinearLayout
+        android:layout_width="342dp"
+        android:layout_height="559dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="6dp"
+        android:weightSum="1">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="1dp" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="421dp"
+
+            android:orientation="vertical"
+            android:weightSum="1"
+            tools:layout_editor_absoluteX="6dp"
+            tools:layout_editor_absoluteY="80dp"
+            android:background="#e2e2ce"
+            >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="341dp"
+                android:layout_height="84dp"
+                android:layout_weight="0.92"
+                app:srcCompat="@drawable/bacgroup" />
+
+            <Button
+                android:id="@+id/buttonMucKhoanChi"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_button"
+                android:text="Mục Khoản Chi" />
+
+            <Button
+                android:id="@+id/buttonMucKhoanThu"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_button"
+                android:text="Mục Khoản Thu" />
+
+            <Button
+                android:id="@+id/buttonThongKe"
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_button"
+                android:text="Thống Kê" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
